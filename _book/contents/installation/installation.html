@@ -149,14 +149,14 @@
             
         </li>
     
-        <li class="chapter " data-level="2.2" data-path="../scripting/scripting.html">
+        <li class="chapter " data-level="2.2" >
             
-                <a href="../scripting/scripting.html">
+                <span>
             
                     
                     Scripting
             
-                </a>
+                </span>
             
 
             
@@ -328,45 +328,45 @@
 <pre><code># Install all dependencies of this project (the project only depends on TypeScript + ESLint related dependencies, used to standardize the project and improve code quality)
 npm i --save-dev
 </code></pre></li>
-<li><p>It is recommended to use <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a> as the code editor. </p>
+<li><p>It is recommended to use <a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a> as the code editor.</p>
 </li>
 <li><p>Requirement install the VSCode plugin <em>ESLint</em> and <em>Prettier</em>. After the installation is complete, open VSCode <code>settings.json</code> (Ctrl + Shirt + P to open settings (JSON))，paste the following code</p>
-<pre><code> &quot;eslint.alwaysShowStatus&quot;: true,
- &quot;eslint.format.enable&quot;: true,
- &quot;eslint.validate&quot;: [
-     &quot;javascript&quot;,
-     &quot;javascriptreact&quot;,
-     &quot;typescript&quot;,
-     &quot;typescriptreact&quot;
- ],
- &quot;editor.defaultFormatter&quot;: &quot;esbenp.prettier-vscode&quot;,
- &quot;editor.formatOnSave&quot;: true,
- &quot;search.exclude&quot;: {
-     &quot;**/node_modules&quot;: true,
-     &quot;**/bower_components&quot;: true,
-     &quot;build/&quot;: true,
-     &quot;temp/&quot;: true,
-     &quot;library/&quot;: true,
-     &quot;**/*.anim&quot;: true
- },
- &quot;files.exclude&quot;: {
-     &quot;**/.git&quot;: true,
-     &quot;**/.DS_Store&quot;: true,
-     &quot;**/*.meta&quot;: true,
-     &quot;library/&quot;: true,
-     &quot;local/&quot;: true,
-     &quot;temp/&quot;: true
- }
+<pre><code>&quot;eslint.alwaysShowStatus&quot;: true,
+&quot;eslint.format.enable&quot;: true,
+&quot;eslint.validate&quot;: [
+    &quot;javascript&quot;,
+    &quot;javascriptreact&quot;,
+    &quot;typescript&quot;,
+    &quot;typescriptreact&quot;
+],
+&quot;editor.defaultFormatter&quot;: &quot;esbenp.prettier-vscode&quot;,
+&quot;editor.formatOnSave&quot;: true,
+&quot;search.exclude&quot;: {
+    &quot;**/node_modules&quot;: true,
+    &quot;**/bower_components&quot;: true,
+    &quot;build/&quot;: true,
+    &quot;temp/&quot;: true,
+    &quot;library/&quot;: true,
+    &quot;**/*.anim&quot;: true
+},
+&quot;files.exclude&quot;: {
+    &quot;**/.git&quot;: true,
+    &quot;**/.DS_Store&quot;: true,
+    &quot;**/*.meta&quot;: true,
+    &quot;library/&quot;: true,
+    &quot;local/&quot;: true,
+    &quot;temp/&quot;: true
+}
 </code></pre></li>
 </ol>
 <p>Install plugins and where to open <code>settings.json</code> as bellow show.
- <img src="res/install-plugins.jpg" alt></p>
-<p> Make sure plugins is enable in project as bellow show.
- <img src="res/setup-plugins.jpg" alt></p>
+<img src="res/install-plugins.jpg" alt></p>
+<p>Make sure plugins is enable in project as bellow show.
+<img src="res/setup-plugins.jpg" alt></p>
 <ol>
 <li><p>Recommended to use <a href="https://google.github.io/styleguide/tsguide.html" target="_blank">Google TypeScript style guide</a></p>
 </li>
-<li><p>Please make sure projects is RUNNABLE and NO ERROR when in local preview </p>
+<li><p>Please make sure projects is RUNNABLE and NO ERROR when in local preview</p>
 </li>
 </ol>
 <h2 id="setup-cocos-creator">Setup Cocos Creator</h2>
@@ -377,7 +377,7 @@ npm i --save-dev
 <li><p>Add Super-Template project to Cocos Dashboard
 <img src="res/add-project.jpg" alt></p>
 </li>
-<li><p>Replace default Cocos Creator <code>index.html</code>. Backup default index.html just in case. <a href>Download</a></p>
+<li><p>Replace default Cocos Creator <code>index.html</code>. Backup default index.html just in case. <a href="https://github.com/GT3-Game/super-template-docs/blob/main/resources/cocos-creator/index.html" target="_blank">Download</a></p>
 <p>3.1 Click &apos;App&apos; to open Cocos Creator folder
 <img src="res/open-app.jpg" alt></p>
 <p>3.2 Find the <code>index.html</code> at bellow location and replace it
@@ -427,7 +427,7 @@ npm i --save-dev
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Installation and Setup","level":"1.3","depth":1,"next":{"title":"Project Structure","level":"2.1","depth":1,"path":"contents/project-structure/project-structure.md","ref":"contents/project-structure/project-structure.md","articles":[]},"previous":{"title":"Introduction","level":"1.2","depth":1,"path":"contents/introduction/introduction.md","ref":"contents/introduction/introduction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"contents/installation/installation.md","mtime":"2021-07-01T09:01:55.435Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-07-02T08:22:28.450Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Installation and Setup","level":"1.3","depth":1,"next":{"title":"Project Structure","level":"2.1","depth":1,"path":"contents/project-structure/project-structure.md","ref":"contents/project-structure/project-structure.md","articles":[]},"previous":{"title":"Introduction","level":"1.2","depth":1,"path":"contents/introduction/introduction.md","ref":"contents/introduction/introduction.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"contents/installation/installation.md","mtime":"2021-07-02T11:56:16.859Z","type":"markdown"},"gitbook":{"version":"3.6.20","time":"2021-07-02T12:03:27.343Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -479,10 +479,6 @@ npm i --save-dev
     </script>
     <script src="../../gitbook/gitbook.js"></script>
     <script src="../../gitbook/theme.js"></script>
-    
-        
-        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
-        
     
         
         <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>

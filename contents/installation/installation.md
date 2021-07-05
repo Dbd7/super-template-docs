@@ -70,3 +70,13 @@ Make sure plugins is enable in project as bellow show.
 
    3.2 Find the `index.html` at bellow location and replace it
    ![](./res/where-to-replace-index.jpg)
+
+4. How to fix `ccc-obfuscated-code` issues
+
+![](./res/ccc-obfuscated-code-error.jpg)
+
+- When init project might see this error above
+
+![](./res/ccc-obfuscated-code-fix.jpg)
+
+- Extract the files, copy and paste to same directory. Restart again cocos creator.

@@ -6,7 +6,7 @@ Getting Super-Template installed and ready-to-go should only take a few minutes.
 
 ##### Requirements
 
-1. Clone the [Super-Template](https://code.visualstudio.com/download) from Github.
+1. Clone the [Super-Template](https://github.com/GT3-Game/super-template-outsource) from Github.
 
 2. Install [NodeJS](https://nodejs.org/en/), Install all npm dependencies package
    ```

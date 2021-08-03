@@ -13,9 +13,18 @@ Super-template subject to change from time to time when:
 
 ## Update
 
-### v1.1.1 (3-August-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
 
-![](./contents/update/res/remove-modules-bundle.jpg)
+### Note
+
+To avoid confusing, we have make some changes.
+1. 'modules-bundle' folder remain in project for reference.
+2. Bonus game need develop in your project.
+3. Gamble game need develop in your project. (you may reuse gamble game prefab in 'modules-bundle')
+4. Version update files can get it from here. https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update
+5. For on development project, current need to manually update. Which is get latest patch from Git, and merge code changes by using tools such as BeyondCompare.
+6. if you are starting from fresh, can directly get latest super-template.
+
+### v1.1.1 (3-August-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
 
 - Added modules-config.json handler
 - Added Insufficient Balance Message
@@ -27,8 +36,6 @@ Super-template subject to change from time to time when:
 - Update API http to https
 
 ### v1.1.0 (12-July-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
-
-![](./contents/update/res/module-bundle-01.jpg)
 
 - Added Dynamic Modules Loader
 - Added Fullsceeen Control

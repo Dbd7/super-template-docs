@@ -13,7 +13,7 @@ Super-template subject to change from time to time when:
 
 ## Update
 
-### v1.1.1 (3-August-2021)
+### v1.1.1 (3-August-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
 
 ![](./contents/update/res/remove-modules-bundle.jpg)
 
@@ -26,7 +26,7 @@ Super-template subject to change from time to time when:
 - Remove 'modules-bundle' folder
 - Update API http to https
 
-### v1.1.0 (12-July-2021)
+### v1.1.0 (12-July-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
 
 ![](./contents/update/res/module-bundle-01.jpg)
 

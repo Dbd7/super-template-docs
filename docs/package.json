@@ -21,5 +21,8 @@
   "homepage": "https://github.com/riobs/test-honkit#readme",
   "devDependencies": {
     "honkit": "^3.6.20"
+  },
+  "dependencies": {
+    "urijs": "^1.19.7"
   }
 }

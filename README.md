@@ -13,10 +13,28 @@ Super-template subject to change from time to time when:
 
 ## Update
 
-Super-Template v1.1.0 (12-July-2021)
+### v1.1.1 (3-August-2021)
+
+![](./contents/update/res/remove-modules-bundle.jpg)
+
+- Added modules-config.json handler
+- Added Insufficient Balance Message
+- Added GlobaData.ts
+- Fixed issue when showing help-information panel still able to spin using keyboard space key
+- Fixed Incorrect Balance Display
+- Fixed Post big win sfx need to cut when reset function apply
+- Remove 'modules-bundle' folder
+- Update API http to https
+
+### v1.1.0 (12-July-2021)
 
 ![](./contents/update/res/module-bundle-01.jpg)
 
+- Added Dynamic Modules Loader
+- Added Fullsceeen Control
+- Added GameServer Manager to Call API
+- Update Swipe and Spin Feature
+- Bugs Fixed
 - Super-Template now separate and hosting `modules-bundle` with another project.
 - Every module inside `modules-bundle` will get through http request.
 - `modules-bundle` now will maintain by GT3 team.

@@ -64,7 +64,15 @@ Open any typescript file and click on `Eslint` and `Prettier` wording at bottom 
 2. Add Super-Template project to Cocos Dashboard
    ![](./res/add-project.jpg)
 
-3. How to fix `ccc-obfuscated-code` issues
+3. Replace default Cocos Creator `index.html`. Backup default index.html just in case. [Download](https://github.com/GT3-Game/super-template-docs/blob/main/resources/cocos-creator/index.html)
+
+   3.1 Click 'App' to open Cocos Creator folder
+   ![](./res/open-app.jpg)
+
+   3.2 Find the `index.html` at bellow location and replace it
+   ![](./res/where-to-replace-index.jpg)
+
+4. How to fix `ccc-obfuscated-code` issues
 
 ![](./res/ccc-obfuscated-code-error.jpg)
 

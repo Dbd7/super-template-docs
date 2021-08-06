@@ -13,18 +13,27 @@ Super-template subject to change from time to time when:
 
 ## Update
 
-
 ### Note
 
 To avoid confusing, we have make some changes.
-1. 'modules-bundle' folder remain in project for reference.
+
+1. 'modules-bundle' folder remain in project for reference. (may copy from super-template if deleted)
 2. Bonus game need develop in your project.
 3. Gamble game need develop in your project. (you may reuse gamble game prefab in 'modules-bundle')
 4. Version update files can get it from here. https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update
 5. For on development project, current need to manually update. Which is get latest patch from Git, and merge code changes by using tools such as BeyondCompare.
 6. if you are starting from fresh, can directly get latest super-template.
 
-### v1.1.1 (3-August-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
+### v1.1.2 (6-August-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+- Revert "Remove 'modules-bundle'" (may copy from super-template if deleted)
+- Added ProgressiveJackpotPrefab localize
+- Added slightly delay when spin end
+- Fixed auto adjust Betline and BetDenom issue
+- Fixed reel spinning issues when spam click with single reel and play button
+- Update 'swipe and spin' emit event name
+
+### v1.1.1 (3-August-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 - Added modules-config.json handler
 - Added Insufficient Balance Message
@@ -35,7 +44,7 @@ To avoid confusing, we have make some changes.
 - Remove 'modules-bundle' folder
 - Update API http to https
 
-### v1.1.0 (12-July-2021) [download](https://github.com/GT3-Game/super-template-docs/tree/main/resources/cocos-creator/update)
+### v1.1.0 (12-July-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 - Added Dynamic Modules Loader
 - Added Fullsceeen Control

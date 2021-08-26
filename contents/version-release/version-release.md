@@ -15,6 +15,7 @@
 - Update bet per line paramater passing
 - Update last reel spin delay
 - Combine same winning line into one
+- Bugs fixed
 
 ### Added API interation
 

@@ -31,8 +31,9 @@ Super-template subject to change from time to time when:
 - Update bet per line paramater passing
 - Update last reel spin delay
 - Combine same winning line into one
+- Bugs fixed
 
-Know issues to fix
+Known issues to fix
 
 - When combine same winning, bottom wining message also need to combine [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/FlowFor2LineWinIsWrong.mp4)
 - When using auto spin, spin button should enable back immediately when reel stop [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/SpinEnableDelay.mp4)

@@ -19,3 +19,4 @@
 - [Optimization](contents/optimization/optimization.md)
 - [Tools](contents/tools/tools.md)
 - [To Do List](contents/to-do-list/to-do-list.md)
+- [Version Release](contents/version-release/version-release.md)

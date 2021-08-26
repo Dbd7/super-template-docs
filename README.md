@@ -1,4 +1,4 @@
-# Super-Template v1.1.2
+# Super-Template v1.2.0
 
 The Super-Template objective to simplify slot game development. It still in early stage development and release, so it may contain bugs and a lot stuff to improvement. It will do update every **2-4 weeks**. Any issue and feedback are welcome to let us know.
 
@@ -7,11 +7,38 @@ The Super-Template objective to simplify slot game development. It still in earl
 Super-template subject to change from time to time when:
 
 - New game requirement or changes request
-- Api integration (_ignore current result structure, real API maybe be different from this_)
 - Super-Template improvement or bugs fix
 - To-do list
 
 ## Update
+
+### v1.2.0 (26-August-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+[v1.2.0 Update guideline](contents/version-release/version-release.md)
+
+- Added API interation
+- Added Login Page
+- Added GameSetting.ts
+- Added brand switching handler. URL.com/?br=kiss918 or URL.com/?br=Mega888. Default using Mega.
+- Added local testing or real API switching
+- Added error message pop up
+- Added property to control reel stop speed
+- Added cocos_inspector_lite extension
+- Added res_compress extension
+- Fixed AudioManager cannot resume play SFX after pause
+- Fixed HUD balance update problem
+- Update GameServer.ts
+- Update bet per line paramater passing
+- Update last reel spin delay
+- Combine same winning line into one
+
+Know issues to fix
+
+- When combine same winning, bottom wining message also need to combine [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/FlowFor2LineWinIsWrong.mp4)
+- When using auto spin, spin button should enable back immediately when reel stop [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/SpinEnableDelay.mp4)
+- Dollar ball information panel should hide when dollaball is disable
+
+[v1.2.0 Update guideline](./contents/version-release/version-release.md)
 
 ### Note
 

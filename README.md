@@ -33,9 +33,9 @@ Super-template subject to change from time to time when:
 - Combine same winning line into one
 - Bugs fixed
 
-Known issues to fix
+Known issues to fix in Super-Template
 
-- When combine same winning, bottom wining message also need to combine [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/FlowFor2LineWinIsWrong.mp4)
+- When combine same winning, bottom wining message also need to combine (for both way game) [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/FlowFor2LineWinIsWrong.mp4)
 - When using auto spin, spin button should enable back immediately when reel stop [issues link](https://github.com/GT3-Game/super-template-docs/blob/main/contents/video/issues/SpinEnableDelay.mp4)
 - Dollar ball information panel should hide when dollaball is disable
 

@@ -12,6 +12,18 @@ Super-template subject to change from time to time when:
 
 ## Update
 
+### Minor Hotfix Update (8-September-2021)
+
+If you facing those issues, may update in your current project now.
+
+[Details](contents/update/update.md)
+
+- BigWinAnim Script on server, if facing any issues on bigwin like hide/show button, sound no stop or close bigwin animation. Can reference files here. [Download](https://github.com/GT3-Game/super-template-update-files/tree/main/others/BigWinAnim/8-August-2021)
+- Result wining line return NaN issue [Link](https://github.com/GT3-Game/super-template-outsource/commit/bc8959a065349877869774a12cb0ec4c65691218)
+- Duplicate API call [Link](https://github.com/GT3-Game/super-template-outsource/commit/53c7371bbd86779c39d90027ded4bab96346893c)
+
+[Details](contents/update/update.md)
+
 ### v1.2.0 (26-August-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 [v1.2.0 Update guideline](contents/version-release/version-release.md)

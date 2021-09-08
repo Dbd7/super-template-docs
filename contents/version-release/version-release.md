@@ -1,4 +1,4 @@
-# Super-Template v1.2.0 Release
+# Minor Update 1 (8-September-2021)
 
 - Added API interation
 - Added Login Page

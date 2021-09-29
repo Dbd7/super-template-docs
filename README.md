@@ -1,4 +1,4 @@
-# Super-Template v1.2.0
+# Super-Template v1.2.1
 
 The Super-Template objective to simplify slot game development. It still in early stage development and release, so it may contain bugs and a lot stuff to improvement. It will do update every **2-4 weeks**. Any issue and feedback are welcome to let us know.
 
@@ -11,6 +11,39 @@ Super-template subject to change from time to time when:
 - To-do list
 
 ## Update
+
+### v1.2.1 (29-September-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+- Added dynamic loading page. Show different loading by brand
+- Added hide extra symbol when reel stopped function
+- Added support to latest Mega888 and kiss918 bigwin
+- Added sync new balance with API
+- Added Scatter payout winning handle (S) [link](https://github.com/GT3-Game/super-template-outsource/commit/930bbc587f899c6d0ecd405290b00ad80ed2f577)
+- Added dollar-ball and gamble game checking
+- Added Random symbol result when show game screen
+- Added currency code display (S) [link](https://github.com/GT3-Game/super-template-outsource/commit/c1c1102fbcab3766023fa4c5e923ba1007615452)
+- Added blur sysbom control in GameSetting.ts and SlotReelStripPrefab.ts (S) [link1](https://github.com/GT3-Game/super-template-outsource/commit/b4f3f6aa71d5cec763b3d7c0c4552697a83a890a) [link2](https://github.com/GT3-Game/super-template-outsource/commit/c1b66a3d110e38a910fb5baf020cd32cab6008a1)
+- Added control DollaBallGroup position
+- Added Logout API
+- Added symbol array
+
+- Update mega and 918 config
+- Update GameSetting.ts (S) [link](https://github.com/GT3-Game/super-template-outsource/commit/b4f3f6aa71d5cec763b3d7c0c4552697a83a890a)
+- Update paylinerid to paylrnum in GameServerModel.ts
+- Update bankCounter logic
+- Update winning line animation (S) [link](https://github.com/GT3-Game/super-template-outsource/commit/3156b51101785aa9e9c08ed90eb862025adb9d29)
+- Update LoadingPanelPrefab UI
+- Update API HTTP error code
+- Update png-auto-compress setting
+
+- Fixed reel re-spin issues
+- Fixed auto spin issues
+- Fixed display amount issues
+- Fixed duplicated API call
+- Fixed incorrect last reel index
+- Fixed min matched symbol for calculate winning line
+
+- (S) need special take care, it might conflict
 
 ### Minor Hotfix Update (8-September-2021)
 

@@ -12,6 +12,22 @@ Super-template subject to change from time to time when:
 
 ## Update
 
+### v1.3.0 (25-October-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+##### (Change version to 1.3.0 for more correct increment)
+
+- Added DomainManager (Dynamic get API URL by BrandCode. Default is mega branch, use ?br=kiss91 change to 918 brand. Please use relative player account to login)
+- Added CryptoManager
+- Added q parameter support login
+- Added Jackpot API (server side only, local/custom pending)
+- Update new scatter payout data structure
+- Update Empty URL Handler
+- Update GameSetting.ts (S)
+- Update login API to version 2
+- Fixed pop up clickable behind reel
+- Fixed incorrect spin button show in auto spin mode
+- Fixed SymbolMappingName to winning line
+
 ### v1.2.1 (29-September-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 - Added dynamic loading page. Show different loading by brand

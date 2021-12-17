@@ -1,4 +1,4 @@
-# Super-Template v1.2.1
+# Super-Template v1.4.0
 
 The Super-Template objective to simplify slot game development. It still in early stage development and release, so it may contain bugs and a lot stuff to improvement. It will do update every **2-4 weeks**. Any issue and feedback are welcome to let us know.
 
@@ -11,6 +11,18 @@ Super-template subject to change from time to time when:
 - To-do list
 
 ## Update
+
+### v1.4.0 (17-December-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+- Added dynamic faviconURL
+- Added new language code handler
+- Added maintanance code
+- Added UAT requirement update
+- Update RunningNumberLabel.ts
+- Update brand name from Mega888 to X500
+- Update convertOptionpoIntoWinningLineFormat logic
+- Update HUDSwipeDetectorComponent
+- Optimize game launch speed
 
 ### v1.3.0 (25-October-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 

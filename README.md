@@ -12,6 +12,18 @@ Super-template subject to change from time to time when:
 
 ## Update
 
+### v1.5.0 (26-March-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+- Added game-reporter modules in X500 and Kiss918 config
+- Added Refresh Token API
+- Added CheatModePrefab
+- Update X500 and Kiss918 login scene
+- Update to disable NoSleepComponent when in desktop browser
+- Fixed X500BootPanelPrefab 'x' typo
+- Fixed getMilliseconds in DomainManager
+- Fixed default langCode issues
+- Fixed reel button issues when hit InsufficientBalance
+
 ### v1.4.0 (17-December-2021) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 - Added dynamic faviconURL

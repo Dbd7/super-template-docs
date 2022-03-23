@@ -12,7 +12,7 @@ Super-template subject to change from time to time when:
 
 ## Update
 
-### v1.5.0 (26-March-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+### v1.5.0 (23-March-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 
 - Added game-reporter modules in X500 and Kiss918 config
 - Added Refresh Token API

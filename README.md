@@ -1,4 +1,4 @@
-# Super-Template v1.4.0
+# Super-Template v1.6.0
 
 The Super-Template objective to simplify slot game development. It still in early stage development and release, so it may contain bugs and a lot stuff to improvement. It will do update every **2-4 weeks**. Any issue and feedback are welcome to let us know.
 
@@ -11,6 +11,24 @@ Super-template subject to change from time to time when:
 - To-do list
 
 ## Update
+
+### v1.6.0 (10-June-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+- Added kiss918 popup UI
+- Added more trade feature sample
+- Added DummyLoadingPanelPrefab
+- Added isArray validation in AudioManager addAll()
+- Added playInBackground() in AudioManager
+- Added grouping audio clip by tag name feature in AudioManager
+- Added remark for deposit and updateNewBalance
+- Added jackpot grant property in traderound
+- Added cheat mode: winline (need to aware of your cheat mode have custom before, import CheatModPrefab will override)
+- Update game server error code
+- Update NoSleepComponent validation
+- Update RandomUUID method
+- Update delayTimeBetweenReel value and slot reel animation speed (SlotEnginePrefab.ts)
+- Fixed AudioManager audio play volume issues
+- Disable Jackpot error pop up in gameserver.ts
 
 ### v1.5.0 (23-March-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
 

@@ -1,4 +1,4 @@
-# Super-Template v1.6.0
+# Super-Template v1.6.1
 
 The Super-Template objective to simplify slot game development. It still in early stage development and release, so it may contain bugs and a lot stuff to improvement. It will do update every **2-4 weeks**. Any issue and feedback are welcome to let us know.
 
@@ -12,7 +12,15 @@ Super-template subject to change from time to time when:
 
 ## Update
 
+### v1.6.1 (26-August-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+** Take Note: this patch is v1.6.0 add-on, so it contain v1.6.0 patch files **
+
+- Enchance reel spin animation
+
 ### v1.6.0 (10-June-2022) [download patch here](https://github.com/GT3-Game/super-template-update-files/tree/main/update)
+
+** Take Note: Please directly use v1.6.1 (this patch replaced with v1.6.1) **
 
 - Added kiss918 popup UI
 - Added more trade feature sample
